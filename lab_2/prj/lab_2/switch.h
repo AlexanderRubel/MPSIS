@@ -19,5 +19,6 @@
 
 int dbnc_sw_state(int sw_bit);
 int is_sw_pressed (int sw_bit);
+int wait_wdt_delay();
 
 #endif /* SWITCH_H_ */
